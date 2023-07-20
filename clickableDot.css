@@ -1,0 +1,14 @@
+html,body{
+    margin: 0;
+}
+.container {
+    width: 50vw;
+    margin: auto;
+  }
+  
+  .butt {
+    border-radius: 50%;
+    width: 50%;
+    padding-top: 50%;
+    margin: 25%;
+  }
