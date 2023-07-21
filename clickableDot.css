@@ -13,6 +13,8 @@ html,body{
     border-radius: 50%;
     /* width: 10%; */
     /* background-color: white; */
-    flex: 0 1 10%;
-    padding-top: 10%;
+    flex: 0 1 30%;
+    padding-top: 30%;
+    border: 5px double black;
+    /* box-shadow: 10px 10px gray; */
   }
