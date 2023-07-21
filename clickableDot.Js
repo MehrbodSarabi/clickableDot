@@ -18,11 +18,7 @@ function color_generator() {
 // button.addEventListener('click', function color_generator()){
 //     button.style.backgroundColor= bgcolor;
 // }
-let button = document.getElementsByClassName("butt");
-let butt = button.butt;
-// button.addEventListener("click", () => {
-//     color_generator();
-// });
+let button = document.getElementById("butt");
 document.addEventListener("click", (event) => {
     console.log(event);
 });
