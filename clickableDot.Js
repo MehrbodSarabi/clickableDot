@@ -14,4 +14,5 @@ function color_generator() {
 document.addEventListener("click", (event) => {
    color_generator();
    console.log(event);
+   button[0].textContent = "Click for Colors!";
 });
