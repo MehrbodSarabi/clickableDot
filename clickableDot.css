@@ -14,8 +14,7 @@ html,body{
     /* width: 10%; */
     /* background-color: white; */
     flex: 0 1 30%;
-    padding-top: 15%;
-    padding-bottom: 15%;
+    padding: 15%;
     border: none;
     font-size: 1em;
     color: white;
