@@ -1,24 +1,17 @@
 // console.log("hi");
 // console.log(Math.floor(Math.random() * 100));
 // Math.floor(Math.random())
+const button = document.getElementsByClassName("butt");
 function color_generator() {
     var x = Math.floor(Math.random() * 256);
     var y = Math.floor(Math.random() * 256);
     var z = Math.floor(Math.random() * 256);
     var bgcolor = "rgb("+x+","+y+","+z+")";
     console.log(bgcolor);
-    // const newColor = bgcolor;
-    // document.body.style.background = bgcolor;
+    button[0].style.backgroundColor = bgcolor;
     }
 // color_generator();
-// const newColor = color_generator();
-// const backgroundColor = document.getElementById("butt").style.backgroundColor;
-// console.log(newColor);
-// console.log(typeof newColor);
-// button.addEventListener('click', function color_generator()){
-//     button.style.backgroundColor= bgcolor;
-// }
-let button = document.getElementById("butt");
 document.addEventListener("click", (event) => {
-    console.log(event);
+   color_generator();
+   console.log(event);
 });
